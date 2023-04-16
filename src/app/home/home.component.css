@@ -1,0 +1,32 @@
+body {
+  background-color: red;
+}
+
+body::before {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  transform: perspective(10px) rotateX(20deg) translateZ(-60px);
+}
+
+.card {
+  background-color: #19AF5E;
+}
+
+.login-rigth {
+  float: right;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
